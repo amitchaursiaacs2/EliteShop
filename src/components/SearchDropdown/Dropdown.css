@@ -3,6 +3,13 @@
     padding: 10px 0px;
 }
 
+.selectDropWrapper .openSelect .arrowDrop {
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    font-size: 20px;
+}
+
 .selectDrops {
     width: 300px;
     height: auto;
@@ -45,6 +52,8 @@
     font-size: 16px;
     width: 100%;
     padding: 5px;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
 }
 
 .selectDrops .searctResults li:hover {
