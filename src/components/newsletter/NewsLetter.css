@@ -1,0 +1,41 @@
+.newsBanner {
+    width: 600px;
+    height: 80px;
+    position: absolute;
+    bottom: 120px;
+    left: 8%;
+}
+
+.newsBanner input {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 60px;
+    border: 0px;
+    outline: none !important;
+    padding-left: 70px !important;
+    padding-right: 200px;
+    font-size: 22px;
+}
+
+
+.newsBanner button {
+    padding: 10px 40px !important;
+    border-radius: 50px !important;
+    color: #fff !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 80px !important;
+    font-size: 22px !important;
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+}
+
+.newsBanner svg {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 100;
+    font-size: 45px;
+}
