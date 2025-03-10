@@ -1,13 +1,12 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 import Carousel from "./slider/Carousel";
 import Category from "../../components/catSlider/Category";
 import Banner from "../../components/banners/Banner";
 import Product from "../../components/product/Product";
 import Slider from "react-slick";
 import TopProduct from "./topProducts/TopProduct";
-import NewsLetter from "../../components/newsletter/NewsLetter";
-import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   var settings = {
@@ -33,34 +32,34 @@ const Home = () => {
             <h2 className="hd mb-0 mt-0">Popular Products</h2>
             <ul className="list list-inline ms-auto filterTab mb-0">
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   All
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   Milk & Dairies
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   Coffes & Teas
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   Pet Foods
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   Meats
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="" className="cursor">
+                <Link to="" className="cursor">
                   Vegetables
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -107,19 +106,19 @@ const Home = () => {
             <h2 className="hd mb-0 mt-0">Daily Best Salls</h2>
             <ul className="list list-inline ms-auto filterTab mb-0">
               <li className="list-inline-item">
-                <a href="/" className="cursor">
+                <Link to="" className="cursor">
                   Featured
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" className="cursor">
+                <Link to="" className="cursor">
                   Popular
-                </a>
+                </Link>
               </li>
               <li className="list-inline-item">
-                <a href="/" className="cursor">
+                <Link to="" className="cursor">
                   New Added
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -180,26 +179,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="newsLetter">
-        <div className="container-fluid">
-          <div className="box d-flex align-items-center">
-            <div className="info">
-              <h2>Stay home & get your daily <br /> needs from our shop...</h2>
-              <p>Start You'r Daily Shopping with Nest Mart</p>
-              <br /><br />
-              <NewsLetter />
-
-            </div>
-            <div className="img">
-              <img src="/assets/img/newsletter.png" alt="No_img" className="w-100" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-
     </>
   );
 };

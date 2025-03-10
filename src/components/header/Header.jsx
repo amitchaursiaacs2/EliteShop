@@ -87,7 +87,7 @@ const Header = () => {
               </div>
 
               <div className="col-sm-5 d-flex align-items-center">
-                <div className="ml-auto d-flex align-items-center">
+                <div className="ms-auto d-flex align-items-center">
                   <div className="counrtyWrapper">
                     <Dropdown
                       data={countryList}
@@ -175,7 +175,6 @@ const Header = () => {
         </header>
         <Nav />
       </div>
-
 
       <div className="afterHeader"></div>
     </>
