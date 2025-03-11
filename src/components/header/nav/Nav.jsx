@@ -77,6 +77,7 @@ const Nav = () => {
                             </li>
                           </ul>
                         </div>
+
                         <div className="col">
                           <h4 className="text-g">Breakfast & Dairy</h4>
                           <ul
@@ -103,6 +104,7 @@ const Nav = () => {
                             </li>
                           </ul>
                         </div>
+
                         <div className="col">
                           <h4 className="text-g">Meat & Seafood</h4>
                           <ul
@@ -129,6 +131,7 @@ const Nav = () => {
                             </li>
                           </ul>
                         </div>
+
                         <div className="col">
                           <img
                             src="https://api.spicezgold.com/download/file_1734525653108_NewProject(20).jpg"
@@ -139,11 +142,13 @@ const Nav = () => {
                       </div>
                     </div>
                   </li>
+
                   <li className="list-inline-item">
                     <Button>
                       <Link>Blog</Link>
                     </Button>
                   </li>
+
                   <li className="list-inline-item">
                     <Button>
                       <Link>
@@ -211,6 +216,7 @@ const Nav = () => {
                       </ul>
                     </div>
                   </li>
+
                   <li className="list-inline-item">
                     <Button>
                       <Link>Contact</Link>
@@ -226,7 +232,7 @@ const Nav = () => {
                 <span>
                   <HeadsetMicOutlinedIcon />
                 </span>
-                <div className="info ml-3">
+                <div className="info ms-3">
                   <h3 className="text-g mb-0">282 - 856</h3>
                   <p className="mb-0">24/7 Support Center</p>
                 </div>

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css);
+
 
 * {
   margin: 0px;
@@ -8,6 +11,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 #root {
@@ -20,6 +24,27 @@ body {
 
 .cursor {
   cursor: pointer;
+}
+
+.btn-border {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 10px 25px !important;
+  border-radius: 5px !important;
+  color: #000 !important;
+}
+
+.btn-border svg {
+  opacity: 0.5;
+}
+
+.btn-border:hover {
+  border: 1px solid #3bb77e !important;
+  background: #3bb77e !important;
+  color: #fff !important;
+}
+
+.btn-border:hover svg {
+  opacity: 1 !important;
 }
 
 .btn-g a {
@@ -50,6 +75,18 @@ body {
 
 .text-g {
   color: #3bb77e;
+}
+
+.text-org {
+  color: #fdc040 !important;
+}
+
+.text-light {
+  color: #8b8b8b !important;
+}
+
+p {
+  color: #7e7e7e;
 }
 
 .hd {
@@ -414,4 +451,217 @@ body {
 
 .rightContent .topStrip .tab_ .dropMenu {
   top: 100% !important;
+}
+
+.breadcrumbWrapper {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.1) !important; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #fff;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #3bb77e;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #3bb77e;
+  text-decoration: underline;
+}
+
+.containerDetails {
+  max-width: 90%;
+  padding: 30px 0px;
+}
+
+.detailsPage .productInfo {
+  padding-left: 50px;
+}
+
+.detailsPage .productInfo h1 {
+  font-size: 55px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.detailsPage .productInfo .priceSec .priceLrg {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.detailsPage .productInfo .priceSec .text-org {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.detailsPage .productInfo .priceSec .text-light.oldPrice {
+  font-size: 30px !important;
+  font-weight: 600;
+}
+
+.productZoom {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.productZoom figure,
+.productZoom figure img {
+  width: 100%;
+}
+
+.zoom_slider {
+  padding-top: 30px;
+}
+
+.zoom_slider .slick-slide {
+  padding-right: 15px !important;
+}
+
+.zoom_slider * {
+  outline: none !important;
+}
+
+.zoom_slider .item {
+  border: 1px solid transparent !important;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.zoom_slider .slick-current .item {
+  border: 1px solid #3bb77e !important;
+}
+
+.zoom_slider .slick-arrow {
+  top: 60% !important;
+  zoom: 80%;
+}
+
+.zoom_slider .slick-arrow.slick-next {
+  right: -2% !important;
+}
+
+.zoom_slider .slick-arrow.slick-prev {
+  left: -5% !important;
+}
+
+.productSize {
+  width: 100%;
+  height: auto;
+}
+
+.productSize ul li {
+  margin-right: 10px !important;
+}
+
+.productSize ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px !important;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: #000;
+  font-size: 18px !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.productSize ul li a.active {
+  background: #3bb77e !important;
+  color: #fff !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.addCartSection {
+  width: 100%;
+  height: auto;
+}
+
+.addCartSection .counterSec {
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #3bb77e !important;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.addCartSection .counterSec input {
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  border: 0px;
+  outline: none !important;
+  text-align: center;
+}
+
+.addCartSection .counterSec .arrow {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.addCartSection .counterSec .arrow.plus {
+  top: -2px;
+  right: 10px;
+}
+
+.addCartSection .counterSec .arrow.minus {
+  bottom: -2px;
+  right: 10px;
+}
+
+.addToCart svg {
+  font-size: 28px !important;
+}
+
+.addCartSection button {
+  height: 60px;
+  min-width: inherit !important;
+}
+
+.addCartSection button svg {
+  font-size: 28px !important;
 }

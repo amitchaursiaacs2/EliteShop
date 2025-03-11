@@ -34,6 +34,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel2.jpg"
@@ -47,6 +48,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel3.jpg"
@@ -60,6 +62,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel4.jpg"
@@ -73,6 +76,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel5.jpg"
@@ -86,6 +90,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel6.jpg"
@@ -99,6 +104,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel7.jpg"
@@ -112,6 +118,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel8.jpg"
@@ -125,6 +132,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+
             <div className="item">
               <img
                 src="/assets/img/Carousel9.jpg"
@@ -138,6 +146,7 @@ const Carousel = () => {
                 <p>Sign up for the daily newsletter...</p>
               </div>
             </div>
+            
             <div className="item">
               <img
                 src="/assets/img/Carousel10.jpg"
