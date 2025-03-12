@@ -24,27 +24,27 @@ const Nav = () => {
                 <ul className="list list-inline mb-0">
                   <li className="list-inline-item">
                     <Button>
-                      <Link>Home</Link>
+                      <Link to="/">Home</Link>
                     </Button>
                   </li>
                   <li className="list-inline-item">
                     <Button>
-                      <Link>About</Link>
+                      <Link to="/about">About</Link>
                     </Button>
                   </li>
                   <li className="list-inline-item">
                     <Button>
-                      <Link>Shop</Link>
+                      <Link to="/listing">Shop</Link>
                     </Button>
                   </li>
                   <li className="list-inline-item">
                     <Button>
-                      <Link>Vendors</Link>
+                      <Link to="/details">Vendors</Link>
                     </Button>
                   </li>
                   <li className="list-inline-item position-static">
                     <Button>
-                      <Link>
+                      <Link to="/">
                         Mega menu
                         <IoIosArrowDown />
                       </Link>

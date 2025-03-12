@@ -14,6 +14,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import { ClickAwayListener } from "@mui/material";
 import Nav from "./nav/Nav";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [openDrop, setOpenDrop] = useState(false);
@@ -124,7 +125,7 @@ const Header = () => {
                         <span className="badge bg-success rounded-circle">
                           3
                         </span>
-                        Cart
+                        <Link to={"/cart"}>Cart</Link>
                       </span>
                     </li>
 
