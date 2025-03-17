@@ -288,7 +288,7 @@ const Footer = () => {
             <div className="row lastStrp">
               <div className="col-md-3 Copyright">
                 Copyright © {new Date().getFullYear()} All Rights Reserved |
-                Elite Shope
+                Elite Shop
               </div>
 
               <div className="col-md-6 d-flex">
