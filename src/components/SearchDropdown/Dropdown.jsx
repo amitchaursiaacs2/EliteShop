@@ -49,6 +49,8 @@ const Dropdown = ({ data, placeholder, icon }) => {
               <div className="searchField">
                 <input
                   type="text"
+                  id="text"
+                  name="text"
                   placeholder="Search here..."
                   onChange={filterList}
                 />

@@ -43,9 +43,9 @@ const Footer = () => {
             <div className="row">
               <div className="col">
                 <div className="box d-flex align-items-center w-100">
-                  <sapn>
+                  <span>
                     <img src="/assets/img/icon-1.svg" alt="No_img" />
-                  </sapn>
+                  </span>
                   <div className="info">
                     <h4>Best prices & offers</h4>
                     <p>Orders $50 or more</p>
@@ -55,9 +55,9 @@ const Footer = () => {
 
               <div className="col">
                 <div className="box d-flex align-items-center w-100">
-                  <sapn>
+                  <span>
                     <img src="/assets/img/icon-2.svg" alt="No_img" />
-                  </sapn>
+                  </span>
                   <div className="info">
                     <h4>Free delivery</h4>
                     <p>Orders $50 or more</p>
@@ -67,9 +67,9 @@ const Footer = () => {
 
               <div className="col">
                 <div className="box d-flex align-items-center w-100">
-                  <sapn>
+                  <span>
                     <img src="/assets/img/icon-3.svg" alt="No_img" />
-                  </sapn>
+                  </span>
                   <div className="info">
                     <h4>Great daily deal</h4>
                     <p>Orders $50 or more</p>
@@ -79,9 +79,9 @@ const Footer = () => {
 
               <div className="col">
                 <div className="box d-flex align-items-center w-100">
-                  <sapn>
+                  <span>
                     <img src="/assets/img/icon-4.svg" alt="No_img" />
-                  </sapn>
+                  </span>
                   <div className="info">
                     <h4>Wide assortment</h4>
                     <p>Orders $50 or more</p>
@@ -91,9 +91,9 @@ const Footer = () => {
 
               <div className="col">
                 <div className="box d-flex align-items-center w-100">
-                  <sapn>
+                  <span>
                     <img src="/assets/img/icon-5.svg" alt="No_img" />
-                  </sapn>
+                  </span>
                   <div className="info">
                     <h4>Easy returns</h4>
                     <p>Orders $50 or more</p>

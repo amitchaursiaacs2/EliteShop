@@ -81,7 +81,12 @@ const Header = () => {
                     icon={false}
                   />
                   <div className="search">
-                    <input type="text" placeholder="Search for item" />
+                    <input
+                      type="text"
+                      id="text"
+                      name="text"
+                      placeholder="Search for item"
+                    />
                     <FaSearch className="searchIcon cursor" />
                   </div>
                 </div>

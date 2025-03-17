@@ -25,17 +25,17 @@ const Product = (props) => {
             <div className="overlay transition">
               <ul className="list list-inline mb-0">
                 <li className="list-inline-item">
-                  <Link className="cursor" tooltip="Add to Wishlist">
+                  <Link to="/" className="cursor" tooltip="Add to Wishlist">
                     <FavoriteBorderOutlinedIcon />
                   </Link>
                 </li>
                 <li className="list-inline-item">
-                  <Link className="cursor" tooltip="Compaire">
+                  <Link to="/" className="cursor" tooltip="Compaire">
                     <CameraswitchOutlinedIcon />
                   </Link>
                 </li>
                 <li className="list-inline-item">
-                  <Link className="cursor" tooltip="Quick View">
+                  <Link to="/" className="cursor" tooltip="Quick View">
                     <RemoveRedEyeOutlinedIcon />
                   </Link>
                 </li>

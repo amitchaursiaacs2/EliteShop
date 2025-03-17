@@ -36,18 +36,16 @@ const Category = () => {
             className="category_slider_main"
             id="category_slider_main"
           >
-            {itemBg.length !== 0 &&
-              itemBg.map((item, index) => {
-                return (
-                  <div className="item">
-                    <div className="info" style={{ background: item }}>
-                      <img src="/assets/img/bibimbap.png" alt="" />
-                      <h5>Bibimbap</h5>
-                      <p>25 Items</p>
-                    </div>
-                  </div>
-                );
-              })}
+            {itemBg.map((item) => (
+              <div className="item" key={item}>
+                <div className="info" style={{ background: item }}>
+                  <img src="/assets/img/bibimbap.png" alt="No_img" />
+                  <h5>Bibimbap</h5>
+                  <p>25 Items</p>
+                </div>
+              </div>
+            ))}
+
             {/* <div className="item">
                             <div className="info">
                                 <img src="/assets/img/bibimbap.png" alt="" />

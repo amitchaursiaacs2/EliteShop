@@ -18,7 +18,7 @@ const Quantity = () => {
     <>
       <div className="addCartSection pt-4 pb-4 d-flex align-items-center">
         <div className="counterSec me-3">
-          <input type="number" value={inputValue} />
+          <input type="number" id="number" name="number" value={inputValue} />
           <span className="arrow plus" onClick={plus}>
             <KeyboardArrowUpOutlinedIcon />
           </span>

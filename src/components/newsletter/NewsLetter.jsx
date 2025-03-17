@@ -8,7 +8,12 @@ const NewsLetter = () => {
     <>
       <div className="newsBanner">
         <NearMeOutlinedIcon />
-        <input type="text" placeholder="Your email address" />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email address"
+        />
         <Button className="bg-g">Subscribe</Button>
       </div>
     </>
