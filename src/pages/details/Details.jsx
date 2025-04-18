@@ -3,23 +3,23 @@ import React, { useRef, useState } from "react";
 import InnerImageZoom from "react-inner-image-zoom";
 import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 import Slider from "react-slick";
-import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
-import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+// import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
+// import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import CompareArrowsOutlinedIcon from "@mui/icons-material/CompareArrowsOutlined";
-import Sidebar from "../../components/sidebar/Sidebar";
+// import Sidebar from "../../components/sidebar/Sidebar";
 import Product from "../../components/product/Product";
 import Quantity from "../../components/quantity/Quantity";
 
 const Details = () => {
-  const [zoomImg, setZoomImg] = useState(
-    "https://www.jiomart.com/images/product/original/494260170/bharat-chana-dal-1-kg-product-images-o494260170-p606721409-0-202411111126.jpg"
-  );
+  // const [zoomImg, setZoomImg] = useState(
+  //   "https://www.jiomart.com/images/product/original/494260170/bharat-chana-dal-1-kg-product-images-o494260170-p606721409-0-202411111126.jpg"
+  // );
   const [bigImg, setBigImg] = useState([1500, 1500]);
   const [smllImg, setSmllImg] = useState([150, 150]);
   const [activeSize, setActiveSize] = useState(0);
-  const [inputValue, setInputValue] = useState(1);
+  // const [inputValue, setInputValue] = useState(1);
 
   const [activeTabs, setActiveTabs] = useState(0);
 
